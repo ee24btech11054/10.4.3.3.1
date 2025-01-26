@@ -53,7 +53,7 @@ while flag==1:
 
 print(fpi1,fpi2)
 # Plotting the function
-plt.plot(x, y, label=r'$f(x) = x^2 - 3x - 1$', color='green')
+plt.plot(x, y, label='theory', color='green')
 plt.plot(fpi1,f(fpi1),'o',color='red',label='(3.302771855010661,0)')
 plt.plot(fpi2,f(fpi2),'o',color='yellow',label='(-0.30277386101541914,0)')
 # Add labels and title

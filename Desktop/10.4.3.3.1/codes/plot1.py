@@ -47,7 +47,7 @@ while flag==1:
 
 print(nr1,nr2)
 # Plotting the function
-plt.plot(x, y, label=r'$f(x) = x^2 - 3x - 1$', color='blue')
+plt.plot(x, y, label='theory', color='blue')
 plt.plot(nr1,f(nr1),'go',label='(3.3027756377328092,0)')
 plt.plot(nr2,f(nr2),'ro',label='(-0.30277563792072887,0)')
 # Add labels and title

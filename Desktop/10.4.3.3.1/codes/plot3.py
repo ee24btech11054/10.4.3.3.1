@@ -59,7 +59,7 @@ if iteration >= max_iterations:
 
 print(st1,st2)
 # Plotting the function
-plt.plot(x, y, label=r'$f(x) = x^2 - 3x - 1$', color='orange')
+plt.plot(x, y, label='theory', color='orange')
 plt.plot(st1,f(st1),'ro',label='(3.3027756563007706,0)')
 plt.plot(st2,f(st2),'bo',label='(-0.302775637731847,0)')
 # Add labels and title
